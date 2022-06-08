@@ -1,0 +1,21 @@
+.navBar{
+    width: 100%;
+    background-color: rgb(32, 1, 41);
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSide img {
+    width: 100px;
+    height: 100px;  
+    padding-left: 50px;
+}
+
+.rightSide{
+    padding-top: 60px;
+    display: flex;
+}
+
+.rightSide a{
+    margin-right: 20px;
+}

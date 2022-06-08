@@ -1,10 +1,11 @@
 import React from 'react'
 import Logo from '../assets/pineArtsLogo.png'
 import {NavLink} from 'react-router-dom';
+import '../styles/Navbar.css';
 
 function Navbar() {
   return (
-    <div>
+    <div className="navBar">
         <div className='leftSide'>
             <img src={Logo} className='logo' alt='logo' />
         </div>
