@@ -14,6 +14,7 @@ function Navbar() {
            <NavLink to={"/gallery"}>Gallery</NavLink>
            <NavLink to={"/about"}>About</NavLink>
            <NavLink to={"/contact"}>Contact</NavLink>
+           <button></button>
         </div>
     </div>
   )

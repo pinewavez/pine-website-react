@@ -18,4 +18,25 @@
 
 .rightSide a{
     margin-right: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.rightSide button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .rightSide a{
+        display: none;
+    }
+
+    .rightSide button {
+        display: inherit;
+    }
+
 }
