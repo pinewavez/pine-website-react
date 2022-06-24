@@ -30,6 +30,14 @@
     display: none;
 }
 
+#open{
+    display: inherit;
+}
+
+#closed{
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .rightSide a{
         display: none;
@@ -37,6 +45,9 @@
 
     .rightSide button {
         display: inherit;
+        margin-right: 20px;
+        font-size: 2em;
     }
+
 
 }
