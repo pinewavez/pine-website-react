@@ -34,9 +34,24 @@
     display: inherit;
 }
 
-#closed{
+#open .hiddenLinks{
     display: none;
 }
+
+#closed img{
+    display: none;
+}
+
+#closed .hiddenLinks a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
 
 @media only screen and (max-width: 600px) {
     .rightSide a{
@@ -44,7 +59,7 @@
     }
 
     .rightSide button {
-        display: inherit;
+        display: block;
         margin-right: 20px;
         font-size: 2em;
     }

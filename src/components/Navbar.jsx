@@ -5,23 +5,25 @@ import '../styles/Navbar.css';
 import {FaBars} from 'react-icons/fa'
 
 function Navbar() {
-  const [isOpen, opener] = useState(false)
+  const [isOpen, setOpen] = useState(true)
   const toggleNav = () => {
-    opener(!isOpen)
+    setOpen(!isOpen)
   };
   return (
 
     <div className="navBar">
-        <div className='leftSide'>
+        <div className='leftSide' id={ isOpen ? "open" : "closed"}>
             <img src={Logo} className='logo' alt='logo' />
-        </div>
 
-        <div className='hiddenLinks' id={ isOpen ? "open" : "closed"}>
+        <div className='hiddenLinks'>
            <NavLink to={"/"}>Home</NavLink>
            <NavLink to={"/gallery"}>Gallery</NavLink>
            <NavLink to={"/about"}>About</NavLink>
            <NavLink to={"/contact"}>Contact</NavLink>
         </div>
+        </div>
+
+        
 
         <div className='rightSide'>
            <NavLink to={"/"}>Home</NavLink>
