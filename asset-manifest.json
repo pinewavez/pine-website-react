@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/pinewavez.github.io/pine-website-react/static/css/main.b02bc406.css",
-    "main.js": "/pinewavez.github.io/pine-website-react/static/js/main.b13fd985.js",
-    "static/js/787.3fd0ae77.chunk.js": "/pinewavez.github.io/pine-website-react/static/js/787.3fd0ae77.chunk.js",
-    "static/media/contactBg.jpg": "/pinewavez.github.io/pine-website-react/static/media/contactBg.12180faa35c5f3100f7f.jpg",
-    "static/media/bgImage.jpg": "/pinewavez.github.io/pine-website-react/static/media/bgImage.73e83d6d50fc03cf24ec.jpg",
-    "static/media/pineArtsLogo.png": "/pinewavez.github.io/pine-website-react/static/media/pineArtsLogo.09955382a73dca324561.png",
-    "index.html": "/pinewavez.github.io/pine-website-react/index.html",
-    "main.b02bc406.css.map": "/pinewavez.github.io/pine-website-react/static/css/main.b02bc406.css.map",
-    "main.b13fd985.js.map": "/pinewavez.github.io/pine-website-react/static/js/main.b13fd985.js.map",
-    "787.3fd0ae77.chunk.js.map": "/pinewavez.github.io/pine-website-react/static/js/787.3fd0ae77.chunk.js.map"
+    "main.css": "/pinewavez.github.io/static/css/main.2b1b437b.css",
+    "main.js": "/pinewavez.github.io/static/js/main.58e0effd.js",
+    "static/js/787.3fd0ae77.chunk.js": "/pinewavez.github.io/static/js/787.3fd0ae77.chunk.js",
+    "static/media/contactBg.jpg": "/pinewavez.github.io/static/media/contactBg.12180faa35c5f3100f7f.jpg",
+    "static/media/bgImage.jpg": "/pinewavez.github.io/static/media/bgImage.73e83d6d50fc03cf24ec.jpg",
+    "static/media/pineArtsLogo.png": "/pinewavez.github.io/static/media/pineArtsLogo.09955382a73dca324561.png",
+    "index.html": "/pinewavez.github.io/index.html",
+    "main.2b1b437b.css.map": "/pinewavez.github.io/static/css/main.2b1b437b.css.map",
+    "main.58e0effd.js.map": "/pinewavez.github.io/static/js/main.58e0effd.js.map",
+    "787.3fd0ae77.chunk.js.map": "/pinewavez.github.io/static/js/787.3fd0ae77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b02bc406.css",
-    "static/js/main.b13fd985.js"
+    "static/css/main.2b1b437b.css",
+    "static/js/main.58e0effd.js"
   ]
 }
