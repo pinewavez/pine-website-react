@@ -12,3 +12,8 @@
     color: goldenrod;
     cursor: pointer;
 }
+
+.Footer svg:hover{
+    color: whitesmoke;
+    transition: 0.5s;
+}

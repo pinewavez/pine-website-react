@@ -26,10 +26,13 @@ function Navbar() {
         
 
         <div className='rightSide'>
-           <NavLink to={"/"}>Home</NavLink>
-           <NavLink to={"/gallery"}>Gallery</NavLink>
-           <NavLink to={"/about"}>About</NavLink>
-           <NavLink to={"/contact"}>Contact</NavLink>
+          <ul>
+            <li><NavLink to={"/"}>Home</NavLink></li>
+            <li><NavLink to={"/gallery"}>Gallery</NavLink></li>
+            <li><NavLink to={"/about"}>About</NavLink></li>
+            <li><NavLink to={"/contact"}>Contact</NavLink></li>
+          </ul>
+           
            <button onClick={toggleNav}><FaBars/></button>
         </div>
     </div>
