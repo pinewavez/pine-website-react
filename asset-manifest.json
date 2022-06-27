@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/pine-website-react/static/css/main.9d209660.css",
-    "main.js": "/pine-website-react/static/js/main.003c1121.js",
-    "static/js/787.3fd0ae77.chunk.js": "/pine-website-react/static/js/787.3fd0ae77.chunk.js",
-    "static/media/contactBg.jpg": "/pine-website-react/static/media/contactBg.12180faa35c5f3100f7f.jpg",
-    "static/media/bgImage.jpg": "/pine-website-react/static/media/bgImage.73e83d6d50fc03cf24ec.jpg",
-    "static/media/pineArtsLogo.png": "/pine-website-react/static/media/pineArtsLogo.09955382a73dca324561.png",
-    "index.html": "/pine-website-react/index.html",
-    "main.9d209660.css.map": "/pine-website-react/static/css/main.9d209660.css.map",
-    "main.003c1121.js.map": "/pine-website-react/static/js/main.003c1121.js.map",
-    "787.3fd0ae77.chunk.js.map": "/pine-website-react/static/js/787.3fd0ae77.chunk.js.map"
+    "main.css": "/static/css/main.09c1e51d.css",
+    "main.js": "/static/js/main.d83061de.js",
+    "static/js/787.3fd0ae77.chunk.js": "/static/js/787.3fd0ae77.chunk.js",
+    "static/media/contactBg.jpg": "/static/media/contactBg.12180faa35c5f3100f7f.jpg",
+    "static/media/bgImage.jpg": "/static/media/bgImage.73e83d6d50fc03cf24ec.jpg",
+    "static/media/pineArtsLogo.png": "/static/media/pineArtsLogo.09955382a73dca324561.png",
+    "index.html": "/index.html",
+    "main.09c1e51d.css.map": "/static/css/main.09c1e51d.css.map",
+    "main.d83061de.js.map": "/static/js/main.d83061de.js.map",
+    "787.3fd0ae77.chunk.js.map": "/static/js/787.3fd0ae77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d209660.css",
-    "static/js/main.003c1121.js"
+    "static/css/main.09c1e51d.css",
+    "static/js/main.d83061de.js"
   ]
 }
