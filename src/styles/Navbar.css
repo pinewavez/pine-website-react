@@ -3,6 +3,7 @@
     background-color: rgb(32, 1, 41);
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .leftSide img {
@@ -57,42 +58,36 @@
     transition: 0.5s;
 }
 
-.hiddenLinks{
-    padding-top: 60px;
-    display: flex;
-}
-
-#open{
-    display: inherit;
-}
-
-#open .hiddenLinks{
-    display: none;
-}
-
-#closed img{
-    display: none;
-}
-
-#closed .hiddenLinks a{
-    text-decoration: none;
-    color: white;
-    margin: 5px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-
 
 @media only screen and (max-width: 600px) {
-    .rightSide a{
+
+    #open{
+        position: absolute;
+        display: inherit;
+        background-color: antiquewhite;
+        top: 100px;
+        right: 10px;
+    }
+
+    #closed ul{
         display: none;
     }
 
-    .rightSide button {
+    .links ul li{
         display: block;
-        margin-right: 20px;
-        font-size: 2em;
+    }
+
+    .links ul li a{
+        color: black;
+    }
+
+    .rightSide button{
+        display: block;
+    }
+
+    .rightSide svg{
+        width: 2em;
+        height: 2em;
     }
 
 
