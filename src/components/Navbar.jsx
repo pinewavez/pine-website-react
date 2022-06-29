@@ -3,7 +3,7 @@ import Logo from '../assets/pineArtsLogo.png'
 import {NavLink} from 'react-router-dom';
 import '../styles/Navbar.css';
 import {FaBars} from 'react-icons/fa'
-// import {FaWindowClose} from 'react-icons/fa'
+import {FaWindowClose} from 'react-icons/fa'
 
 
 function Navbar() {
@@ -20,6 +20,7 @@ function Navbar() {
 
         <div className="rightSide">
           <div className='links' id={isOpen ? "open" : "closed"}> 
+            <button onClick={toggleNav}><FaWindowClose/></button>
             <ul>
               <li><NavLink to={"/"}>Home</NavLink></li>
               <li><NavLink to={"/gallery"}>Gallery</NavLink></li>
@@ -28,7 +29,6 @@ function Navbar() {
             </ul>
           </div>
           <button className="open" onClick={toggleNav}><FaBars/></button>
-          {/* <button className="close" onClick={toggleNav}><FaWindowClose/></button> */}
         </div>
     </div>
   )

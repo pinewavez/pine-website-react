@@ -16,6 +16,7 @@
     padding-top: 60px;
     margin-right: 20px;
     display: flex;
+    position: relative;
 }
 
 .rightSide ul li{
@@ -65,16 +66,32 @@
         position: absolute;
         display: inherit;
         background-color: antiquewhite;
-        top: 100px;
-        right: 10px;
+        top: 60px;
+        right: -20px;
+        transition: 0.5s;
     }
 
-    #closed ul{
-        display: none;
+    #closed {
+        position: absolute;
+        display: inherit;
+        background-color: antiquewhite;
+        top: 60px;
+        right: -200px;
+        transition: 0.5s;
+    }
+
+    .links{
+        height: 50vh;
+        width: 20vh;
+    }
+    
+    .links button{
+        position: absolute;
     }
 
     .links ul li{
         display: block;
+        padding-top: 30px;
     }
 
     .links ul li a{
